@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <script src="https://kit.fontawesome.com/9dda25d40e.js" crossorigin="anonymous"></script>
 
+
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Include Google Fonts -->
@@ -26,13 +27,13 @@
                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
            </li>
            <li class="nav-item">
-               <a class="nav-link" href="#">About</a>
+               <a class="nav-link" href="#contact">FAQ</a>
            </li>
            <li class="nav-item">
-               <a class="nav-link" href="#">Services</a>
+               <a class="nav-link" href="#services">Services</a>
            </li>
            <li class="nav-item">
-               <a class="nav-link" href="#">Portfolio</a>
+               <a class="nav-link" href="#portfolio">Portfolio</a>
            </li>
        </ul>
    </div>
@@ -186,26 +187,26 @@
        <div class="row">
            <div class="col-md-8 mx-auto">
                <h2 class="text-center mb-5">Contact Us</h2>
-               <form>
+               <form action="https://getform.io/f/91ce2e1d-ed83-4e96-bf41-682089ab8b42" method="POST" enctype="multipart/form-data">
                    <div class="row">
                        <div class="col-md-6">
                            <div class="form-group">
-                               <label for="name">Your Name</label>
-                               <input type="text" class="form-control" id="name" name="name" required>
+                               <label for="name">Name</label>
+                               <input type="text" class="form-control" id="name" name="name" placeholder="Enter your fullname" required>
                            </div>
                        </div>
                        <div class="col-md-6">
                            <div class="form-group">
-                               <label for="email">Your Email</label>
-                               <input type="email" class="form-control" id="email" name="email" required>
+                               <label for="email">Email</label>
+                               <input type="email" class="form-control" id="email" name="email" placeholder="Enter your valid email" required>
                            </div>
                        </div>
                    </div>
                    <div class="form-group">
-                       <label for="message">Your Message</label>
-                       <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                       <label for="message">What do you have for us</label>
+                       <textarea class="form-control" id="message" name="message" placeholder="We would like to hear from you..." rows="4" required></textarea>
                    </div>
-                   <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                   <button type="submit" value="Send" class="btn btn-outline-primary btn-block">Submit</button>
                </form>
            </div>
        </div>
@@ -218,7 +219,8 @@
        <div class="row">
            <div class="col-md-6">
                <h4>Contact Information</h4>
-               <p>Email: tunedaytv@gmail.com</p>
+               <p>send-us-a-mail@gmail.com</p>
+               <p>+234 7023 345 456</p>
            </div>
            <div class="col-md-6">
                <h4>Follow Us</h4>
@@ -232,7 +234,7 @@
        <hr>
        <div class="row">
            <div class="col-md-12 text-center">
-               <p>&copy; 2024 SocialMediaAgency. All rights reserved.</p>
+            <p>&copy; 2024 <a href="#">YourSocialMediaGuy</a>. All rights reserved.</p>
            </div>
        </div>
    </div>
@@ -244,6 +246,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     
     </body>
     </html>
