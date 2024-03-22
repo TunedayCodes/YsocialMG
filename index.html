@@ -216,12 +216,18 @@
 
 <!-- Footer Section -->
 <footer class="footer">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentYear = new Date().getFullYear();
+            var copyrightElement = document.getElementById("copyright");
+            copyrightElement.innerText = currentYear;
+        });
+    </script>
    <div class="container">
        <div class="row">
            <div class="col-md-6">
-               <h4>Contact Information</h4>
+               <h4>Get in touch</h4>
                <p>tunedaytv@gmail.com</p>
-               <p>+234 7023 345 456</p>
            </div>
            <div class="col-md-6">
                <h4>Follow Us</h4>
@@ -235,7 +241,7 @@
        <hr>
        <div class="row">
            <div class="col-md-12 text-center">
-            <p>&copy; 2024 <a href="#">YourSocialMediaGuy</a>. All rights reserved.</p>
+            <p>&copy; <span id="copyright"></span> <a href="#">YourSocialMediaGuy</a>. All rights reserved.</p>
            </div>
        </div>
    </div>
